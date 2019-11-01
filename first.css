@@ -1,0 +1,54 @@
+body {
+	background: content-box radial-gradient(crimson, black);
+	color: white;
+}
+
+img {
+	
+	position: relative;
+	bottom: 0px; /* Положение от нижнего края */
+    right: -200px; /* Положение от правого края */
+}
+
+h1{
+	/* Используем шрифт, подключённый в коде HTML: */
+	font-family: Satisfy, cursive;
+	font-weight:normal;
+	font-size:40px;
+	padding-top: 60px;
+}
+
+h3 {
+	color: red;
+}
+ 
+input[type=submit] {
+    border: 1px solid #f44c0e;
+    color: #fff;
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+input[type=submit]:hover {
+    background: #f44c0e;
+}
+
+input[type=text]{
+	-webkit-transition: width 3.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	border: 2px solid red;
+	border-radius: 4px;
+}  
+
+input[type=text]:focus{
+	width: 50%;
+}
+
+textarea{
+	border: 2px solid red;
+	border-radius: 4px;
+}
+
+
+
+
